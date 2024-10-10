@@ -1,0 +1,1 @@
+EarthquakesAPI: Bu API, özellikle depremlerle ilgili veri sağlayan bir çözüm sunar. Deprem verilerini kamuya açık kaynaklardan çekerek kullanıcıya tarih, zaman, büyüklük, yer ve derinlik gibi bilgileri sunar. Ayrıca, belirli tarihler arasında gerçekleşmiş depremleri listeleyebilme ve kapsamlı analiz yapabilme özelliği ile deprem verilerinin analiz edilmesine yardımcı olur.
