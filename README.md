@@ -1,6 +1,6 @@
-**Proje Adı: API Pool**  
+# Proje Adı: API Pool
 
-**Geliştirme Amacı ve Kapsam:**  
+### Geliştirme Amacı ve Kapsam:
 API Pool çözümünü, .NET 8.0 teknolojisi ile eğitim ve öğrenme amacıyla geliştirdim. Bu proje, çeşitli veri kaynaklarından bilgi çekebilen ve bu verileri farklı amaçlarla kullanılabilir hale getiren bir API koleksiyonudur. Proje kapsamında **SqlServerAPI**, **EarthquakesAPI** ve **TCMBTodatAPI** olmak üzere üç ana API geliştirdim. Her biri belirli veri kaynaklarına odaklanarak çeşitli veri setleriyle işlem yapmayı ve kullanıcıya anlamlı sonuçlar sunmayı amaçlıyor. 
 
 1. **SqlServerAPI**: Bu API, SQL Server veritabanına erişim sağlamak için tasarlandı. Bir veritabanı sunucusuna bağlanarak, veri sorgulama, verileri listeleme, ekleme, güncelleme ve silme işlemlerini gerçekleştirebiliyor. Özellikle veritabanı işlemlerini merkezileştirerek daha geniş sistemlerde kullanılabilecek esnek ve ölçeklenebilir bir yapı sağlamak üzere geliştirildi.
@@ -9,7 +9,7 @@ API Pool çözümünü, .NET 8.0 teknolojisi ile eğitim ve öğrenme amacıyla 
 
 3. **TCMBTodatAPI**: Bu API, Türkiye Cumhuriyet Merkez Bankası'nın günlük döviz kuru verilerini sağlamaya yönelik olarak tasarlandı. Döviz verilerini gerçek zamanlı olarak güncelleyip, kullanıcılara güncel döviz kuru, geçmiş döviz kurları gibi bilgileri sunar. Finansal uygulamalarda kullanılabilecek, döviz kuru bazlı analizlerde bilgi sağlamak için idealdir.
 
-**Katmanlı Mimari:**  
+### Katmanlı Mimari:
 Proje, **Utility**, **Core**, **Data** ve **Business** olmak üzere dört ana katman üzerine inşa edildi:
 
 - **Utility Katmanı**: Ortak fonksiyonlar, genel yardımcı sınıflar ve projede sıkça kullanılan araçlar bu katmanda yer almaktadır. Bu, diğer katmanların tekrar eden işlevleri yeniden yazmak yerine burada tanımlanan fonksiyonları kullanarak zamandan ve çabadan tasarruf etmesini sağlar.
@@ -20,7 +20,7 @@ Proje, **Utility**, **Core**, **Data** ve **Business** olmak üzere dört ana ka
 
 - **Business Katmanı**: İş mantığının tanımlandığı bu katman, kullanıcıdan gelen isteklerin nasıl işleneceğine dair kuralları barındırır. Bu sayede, her bir API'nin kendine özgü iş mantığını soyutlayarak daha yönetilebilir ve anlaşılabilir bir yapı sağlar.
 
-**Dependency Injection (IOC) Uygulaması:**  
+### Dependency Injection (IOC) Uygulaması:
 Projemde **Inversion of Control (IOC)** tekniğini kullanarak bağımlılıkları yönetilebilir hale getirdim. Bu sayede, uygulamanın farklı bileşenlerinin birbiriyle olan bağımlılığını minimum seviyede tutarak daha esnek ve genişletilebilir bir yapı elde ettim. IOC tekniği, özellikle test aşamasında fayda sağlayarak uygulamanın test edilebilirliğini artırdı.
 
 **Öğrenim ve Gelişim:**  
